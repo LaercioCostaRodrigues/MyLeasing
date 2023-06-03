@@ -3,7 +3,7 @@ using System.Reflection.Metadata.Ecma335;
 
 namespace MyLeasing.Web.Data.Entities
 {
-    public class Owner
+    public class Owner : IEntity
     {
         [Key]
         public int Id { get; set; }
